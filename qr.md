@@ -10,7 +10,7 @@ kernelspec:
   language: python
   name: python3
 ---
-```{code-cell}
+```{code-cell} ipython3
 :tags: ["remove-cell"]
 import qrcode
 from myst_nb import glue
@@ -22,11 +22,20 @@ qr_dict = {
   "text-fs-1": {
     "url": "https://dh-network.github.io/quadriga"
   },
+  "text-fs-2": {
+    "url": "https://dh-network.github.io/quadriga-fs-2"
+  },
   "bild-fs-1": {
     "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/"
   },
+  "bild-fs-2": {
+    "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/"
+  },
   "tabelle-fs-1": {
     "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/"
+  },
+  "tabelle-fs-2": {
+    "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/"
   },
   "dkf": {
     "url": "https://doi.org/10.5281/zenodo.14747822"
@@ -70,6 +79,13 @@ https://quadriga-dk.de
 
 https://dh-network.github.io/quadriga
 ```
+### 2 _Barrierefreie Kommunikation der Landesregierung Berlin_
+```{glue:figure} qr-text-fs-2
+:figwidth: 450px
+:name: "qr-text-fs-2"
+
+https://dh-network.github.io/quadriga-fs-2
+```
 
 ## Bewegtes Bild
 ### 1 _Affektrhetorik in Online-Videos zur Klimakrise. Datengestützte Analysen audiovisueller Muster_
@@ -78,6 +94,13 @@ https://dh-network.github.io/quadriga
 :name: "qr-bild-fs-1"
 
 https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/
+```
+### 2 _Studentische Filme an der Filmuniversität zur Wendezeit (1985-1999)_
+```{glue:figure} qr-bild-fs-2
+:figwidth: 450px
+:name: "qr-bild-fs-2"
+
+https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 ```
 
 ## Tabelle
@@ -88,7 +111,13 @@ https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/
 
 https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
 ```
+### 2 _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen/Deutschen Metadatenportal_
+```{glue:figure} qr-tabelle-fs-2
+:figwidth: 450px
+:name: "qr-tabelle-fs-2"
 
+https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
+```
 
 ## Weitere Ressourcen
 
