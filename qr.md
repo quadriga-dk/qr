@@ -63,7 +63,7 @@ for key, value in qr_dict.items():
 
 ## Website
 ```{glue:figure} qr-website
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-website"
 
 https://quadriga-dk.de
@@ -74,14 +74,14 @@ https://quadriga-dk.de
 
 ### 1 _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie_
 ```{glue:figure} qr-text-fs-1
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-text-fs-1"
 
 https://dh-network.github.io/quadriga
 ```
 ### 2 _Barrierefreie Kommunikation der Landesregierung Berlin_
 ```{glue:figure} qr-text-fs-2
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-text-fs-2"
 
 https://dh-network.github.io/quadriga-fs-2
@@ -90,14 +90,14 @@ https://dh-network.github.io/quadriga-fs-2
 ## Bewegtes Bild
 ### 1 _Affektrhetorik in Online-Videos zur Klimakrise. Datengestützte Analysen audiovisueller Muster_
 ```{glue:figure} qr-bild-fs-1
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-bild-fs-1"
 
 https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/
 ```
 ### 2 _Studentische Filme an der Filmuniversität zur Wendezeit (1985-1999)_
 ```{glue:figure} qr-bild-fs-2
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-bild-fs-2"
 
 https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
@@ -106,14 +106,14 @@ https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 ## Tabelle
 ### 1 _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht_
 ```{glue:figure} qr-tabelle-fs-1
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-tabelle-fs-1"
 
 https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
 ```
 ### 2 _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen/Deutschen Metadatenportal_
 ```{glue:figure} qr-tabelle-fs-2
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-tabelle-fs-2"
 
 https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
@@ -123,7 +123,7 @@ https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
 
 ### QUADRIGA Datenkompetenzframework
 ```{glue:figure} qr-dkf
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-dkf"
 
 https://doi.org/10.5281/zenodo.14747822
@@ -131,7 +131,7 @@ https://doi.org/10.5281/zenodo.14747822
 
 ### QR-Codes (diese Seite)
 ```{glue:figure} qr-qr-codes
-:figwidth: 450px
+:figwidth: 400px
 :name: "qr-qr-codes"
 
 https://quadriga-dk.github.io/qr/
