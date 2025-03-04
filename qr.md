@@ -54,11 +54,10 @@ for key, value in qr_dict.items():
 https://quadriga-dk.de
 ```
 
-## Fallstudien
 
-### Text
+## Text
 
-#### 1 _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie_
+### 1 _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie_
 ```{glue:figure} qr-text-fs-1
 :figwidth: 450px
 :name: "qr-text-fs-1"
@@ -66,8 +65,8 @@ https://quadriga-dk.de
 https://dh-network.github.io/quadriga
 ```
 
-### Bewegtes Bild
-#### 1 _Affektrhetorik in Online-Videos zur Klimakrise. Datengestützte Analysen audiovisueller Muster_
+## Bewegtes Bild
+### 1 _Affektrhetorik in Online-Videos zur Klimakrise. Datengestützte Analysen audiovisueller Muster_
 ```{glue:figure} qr-bild-fs-1
 :figwidth: 450px
 :name: "qr-bild-fs-1"
@@ -75,8 +74,8 @@ https://dh-network.github.io/quadriga
 https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/
 ```
 
-### Tabelle
-#### 1 _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht_
+## Tabelle
+### 1 _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht_
 ```{glue:figure} qr-tabelle-fs-1
 :figwidth: 450px
 :name: "qr-tabelle-fs-1"
