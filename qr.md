@@ -27,6 +27,9 @@ qr_dict = {
   },
   "tabelle-fs-1": {
     "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/"
+  },
+  "qr-codes": {
+    "url": "https://quadriga-dk.github.io/qr"
   }
 }
 for key, value in qr_dict.items():
@@ -81,4 +84,15 @@ https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/
 :name: "qr-tabelle-fs-1"
 
 https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
+```
+
+
+## Weitere Ressourcen
+
+### QR-Codes (diese Seite)
+```{glue:figure} qr-qr-codes
+:figwidth: 450px
+:name: "qr-qr-codes"
+
+https://quadriga-dk.github.io/qr/
 ```
