@@ -28,9 +28,12 @@ qr_dict = {
   "tabelle-fs-1": {
     "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/"
   },
+  "dkf": {
+    "url": "https://doi.org/10.5281/zenodo.14747822"
+  },
   "qr-codes": {
     "url": "https://quadriga-dk.github.io/qr"
-  }
+  },
 }
 for key, value in qr_dict.items():
   print(f"{key=}; {value=}")
@@ -88,6 +91,14 @@ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
 
 
 ## Weitere Ressourcen
+
+### QUADRIGA Datenkompetenzframework
+```{glue:figure} qr-dkf
+:figwidth: 450px
+:name: "qr-dkf"
+
+https://doi.org/10.5281/zenodo.14747822
+```
 
 ### QR-Codes (diese Seite)
 ```{glue:figure} qr-qr-codes
