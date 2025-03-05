@@ -43,6 +43,9 @@ qr_dict = {
   "qr-codes": {
     "url": "https://quadriga-dk.github.io/qr"
   },
+  "navigator": {
+    "url": "https://quadriga.fokus.fraunhofer.de/datasets?locale=de"
+  }
 }
 for key, value in qr_dict.items():
   print(f"{key=}; {value=}")
@@ -127,6 +130,14 @@ https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
 :name: "qr-dkf"
 
 https://doi.org/10.5281/zenodo.14747822
+```
+
+### QUADRIGA Navigator (Beta)
+```{glue:figure} qr-navigator
+:figwidth: 400px
+:name: "qr-navigator"
+
+https://quadriga.fokus.fraunhofer.de/datasets?locale=de
 ```
 
 ### QR-Codes (diese Seite)
