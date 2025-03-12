@@ -45,6 +45,9 @@ qr_dict = {
   },
   "navigator": {
     "url": "https://quadriga.fokus.fraunhofer.de/datasets?locale=de"
+  },
+  "isi2025-poster-feedback": {
+    "url": "https://umfrage.hu-berlin.de/index.php/871645?lang=de"
   }
 }
 for key, value in qr_dict.items():
@@ -136,6 +139,14 @@ https://doi.org/10.5281/zenodo.14747822
 ```{glue:figure} qr-navigator
 :figwidth: 400px
 :name: "qr-navigator"
+
+https://quadriga.fokus.fraunhofer.de/datasets?locale=de
+```
+
+### ISI 2025 Poster Feedback
+```{glue:figure} qr-isi2025-poster-feedback
+:figwidth: 400px
+:name: "qr-isi2025-poster-feedback"
 
 https://quadriga.fokus.fraunhofer.de/datasets?locale=de
 ```
