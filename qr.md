@@ -48,6 +48,9 @@ qr_dict = {
   },
   "isi2025-poster-feedback": {
     "url": "https://umfrage.hu-berlin.de/index.php/871645?lang=de"
+  },
+  "zenodo-community": {
+    "url": "https://zenodo.org/communities/quadriga/"
   }
 }
 for key, value in qr_dict.items():
@@ -149,6 +152,14 @@ https://quadriga.fokus.fraunhofer.de/datasets?locale=de
 :name: "qr-isi2025-poster-feedback"
 
 https://umfrage.hu-berlin.de/index.php/871645?lang=de
+```
+
+### QUADRIGA Community auf zenodo.org
+```{glue:figure} qr-zenodo-community
+:figwidth: 400px
+:name: "qr-zenodo-community"
+
+https://zenodo.org/communities/quadriga/
 ```
 
 ### QR-Codes (diese Seite)
