@@ -148,7 +148,7 @@ https://quadriga.fokus.fraunhofer.de/datasets?locale=de
 :figwidth: 400px
 :name: "qr-isi2025-poster-feedback"
 
-https://quadriga.fokus.fraunhofer.de/datasets?locale=de
+https://umfrage.hu-berlin.de/index.php/871645?lang=de
 ```
 
 ### QR-Codes (diese Seite)
