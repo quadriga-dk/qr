@@ -46,9 +46,6 @@ qr_dict = {
   "navigator": {
     "url": "https://quadriga.fokus.fraunhofer.de/datasets?locale=de"
   },
-  "isi2025-poster-feedback": {
-    "url": "https://umfrage.hu-berlin.de/index.php/871645?lang=de"
-  },
   "zenodo-community": {
     "url": "https://zenodo.org/communities/quadriga/"
   }
@@ -144,14 +141,6 @@ https://doi.org/10.5281/zenodo.14747822
 :name: "qr-navigator"
 
 https://quadriga.fokus.fraunhofer.de/datasets?locale=de
-```
-
-### ISI 2025 Poster Feedback
-```{glue:figure} qr-isi2025-poster-feedback
-:figwidth: 400px
-:name: "qr-isi2025-poster-feedback"
-
-https://umfrage.hu-berlin.de/index.php/871645?lang=de
 ```
 
 ### QUADRIGA Community auf zenodo.org
