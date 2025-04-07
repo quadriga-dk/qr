@@ -93,7 +93,7 @@ https://dh-network.github.io/quadriga
 :figwidth: 400px
 :name: "qr-text-fs-2"
 
-https://dh-network.github.io/quadriga-fs-2
+https://quadriga-dk.github.io/Text-Fallstudie-2
 ```
 
 ## Bewegtes Bild
