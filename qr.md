@@ -23,7 +23,7 @@ qr_dict = {
     "url": "https://dh-network.github.io/quadriga"
   },
   "text-fs-2": {
-    "url": "https://dh-network.github.io/quadriga-fs-2"
+    "url": "https://quadriga-dk.github.io/Text-Fallstudie-2"
   },
   "bild-fs-1": {
     "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/"
@@ -88,7 +88,7 @@ https://quadriga-dk.de
 
 https://dh-network.github.io/quadriga
 ```
-### 2 _Barrierefreie Kommunikation der Landesregierung Berlin_
+### 2 _Quantitative diachrone Analyse der kommunikativen Barrierefreiheit des Berliner Senats (2011-2024). Eine Fallstudie_
 ```{glue:figure} qr-text-fs-2
 :figwidth: 400px
 :name: "qr-text-fs-2"
