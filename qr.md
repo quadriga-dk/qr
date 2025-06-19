@@ -48,6 +48,9 @@ qr_dict = {
   },
   "zenodo-community": {
     "url": "https://zenodo.org/communities/quadriga/"
+  },
+  "workshop": {
+    "url": "https://quadriga-dk.github.io/OER-Workshop/"
   }
 }
 for key, value in qr_dict.items():
@@ -149,6 +152,13 @@ https://quadriga.fokus.fraunhofer.de/datasets?locale=de
 :name: "qr-zenodo-community"
 
 https://zenodo.org/communities/quadriga/
+```
+### Workshop
+```{glue:figure} qr-workshop
+:figwidth: 400px
+:name: "qr-workshop"
+
+https://quadriga-dk.github.io/OER-Workshop/
 ```
 
 ### QR-Codes (diese Seite)
