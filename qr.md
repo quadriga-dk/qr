@@ -20,7 +20,7 @@ qr_dict = {
     "url": "https://quadriga-dk.de"
   },
   "text-fs-1": {
-    "url": "https://dh-network.github.io/quadriga"
+    "url": "https://quadriga-dk.github.io/Text-Fallstudie-1"
   },
   "text-fs-2": {
     "url": "https://quadriga-dk.github.io/Text-Fallstudie-2"
@@ -86,7 +86,7 @@ https://quadriga-dk.de
 :figwidth: 400px
 :name: "qr-text-fs-1"
 
-https://dh-network.github.io/quadriga
+https://quadriga-dk.github.io/Text-Fallstudie-1
 ```
 ### 2 _Quantitative diachrone Analyse der kommunikativen Barrierefreiheit des Berliner Senats (2011-2024). Eine Fallstudie_
 ```{glue:figure} qr-text-fs-2
