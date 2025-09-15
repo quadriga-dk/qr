@@ -78,7 +78,7 @@ for key, value in qr_dict.items():
 :figwidth: 400px
 :name: "qr-website"
 
-https://quadriga-dk.de
+https://www.quadriga-dk.de
 ```
 ## Kontakt erwünscht
 
