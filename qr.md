@@ -17,7 +17,7 @@ from myst_nb import glue
 
 qr_dict = {
   "website": {
-    "url": "https://quadriga-dk.de"
+    "url": "https://www.quadriga-dk.de"
   },
   "text-fs-1": {
     "url": "https://quadriga-dk.github.io/Text-Fallstudie-1"
@@ -51,6 +51,9 @@ qr_dict = {
   },
   "workshop": {
     "url": "https://quadriga-dk.github.io/OER-Workshop/"
+  },
+  "kontakt": {
+    "url": "https://gesellschaftfuerinformatik.limesurvey.net/254548?lang=de"
   }
 }
 for key, value in qr_dict.items():
@@ -77,7 +80,16 @@ for key, value in qr_dict.items():
 
 https://quadriga-dk.de
 ```
+## Kontakt erwünscht
 
+Wollen Sie von uns zu Neuigkeiten kontaktiert werden für oder zu Feedback und Erprobung eingeladen werden? Tragen Sie sich hier ein.
+
+```{glue:figure} qr-kontakt
+:figwidth: 400px
+:name: "qr-kontakt"
+
+https://gesellschaftfuerinformatik.limesurvey.net/254548?lang=de
+```
 
 ## Text
 
