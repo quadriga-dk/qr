@@ -1,15 +1,16 @@
 ---
 lang: de-DE
 jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
+    formats: md:myst
+    text_representation:
+        extension: .md
+        format_name: myst
 kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
+    display_name: Python 3
+    language: python
+    name: python3
 ---
+
 ```{code-cell} ipython3
 :tags: ["remove-cell"]
 import qrcode
@@ -25,17 +26,26 @@ qr_dict = {
   "text-fs-2": {
     "url": "https://quadriga-dk.github.io/Text-Fallstudie-2"
   },
+  "text-fs-3": {
+    "url": "https://quadriga-dk.github.io/Text-Fallstudie-3"
+  },
   "bild-fs-1": {
     "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/"
   },
   "bild-fs-2": {
     "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/"
   },
+  "bild-fs-3": {
+    "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/"
+  },
   "tabelle-fs-1": {
     "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/"
   },
   "tabelle-fs-2": {
     "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/"
+  },
+  "tabelle-fs-3": {
+    "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-3/"
   },
   "dkf": {
     "url": "https://doi.org/10.5281/zenodo.14747822"
@@ -44,7 +54,7 @@ qr_dict = {
     "url": "https://quadriga-dk.github.io/qr"
   },
   "navigator": {
-    "url": "https://quadriga.fokus.fraunhofer.de/datasets?locale=de"
+    "url": "https://quadriga.fokus.fraunhofer.de/datasets"
   },
   "zenodo-community": {
     "url": "https://zenodo.org/communities/quadriga/"
@@ -71,15 +81,18 @@ for key, value in qr_dict.items():
   print("qr-"+key)
   glue("qr-"+key, value["qr"])
 ```
+
 # QUADRIGA QR-Codes
 
 ## Website
+
 ```{glue:figure} qr-website
 :figwidth: 400px
 :name: "qr-website"
 
 https://www.quadriga-dk.de
 ```
+
 ## Kontakt erwünscht
 
 Wollen Sie von uns zu Neuigkeiten kontaktiert werden für oder zu Feedback und Erprobung eingeladen werden? Tragen Sie sich hier ein.
@@ -94,13 +107,16 @@ https://gesellschaftfuerinformatik.limesurvey.net/254548?lang=de
 ## Text
 
 ### 1 _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie_
+
 ```{glue:figure} qr-text-fs-1
 :figwidth: 400px
 :name: "qr-text-fs-1"
 
 https://quadriga-dk.github.io/Text-Fallstudie-1
 ```
+
 ### 2 _Quantitative diachrone Analyse der kommunikativen Barrierefreiheit des Berliner Senats (2011-2024). Eine Fallstudie_
+
 ```{glue:figure} qr-text-fs-2
 :figwidth: 400px
 :name: "qr-text-fs-2"
@@ -108,15 +124,28 @@ https://quadriga-dk.github.io/Text-Fallstudie-1
 https://quadriga-dk.github.io/Text-Fallstudie-2
 ```
 
+### 3 _Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie_
+
+```{glue:figure} qr-text-fs-3
+:figwidth: 400px
+:name: "qr-text-fs-3"
+
+https://quadriga-dk.github.io/Text-Fallstudie-3
+```
+
 ## Bewegtes Bild
+
 ### 1 _Affektrhetorik in Online-Videos zur Klimakrise. Datengestützte Analysen audiovisueller Muster_
+
 ```{glue:figure} qr-bild-fs-1
 :figwidth: 400px
 :name: "qr-bild-fs-1"
 
 https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/
 ```
+
 ### 2 _Studentische Filme an der Filmuniversität zur Wendezeit (1985-1999)_
+
 ```{glue:figure} qr-bild-fs-2
 :figwidth: 400px
 :name: "qr-bild-fs-2"
@@ -124,15 +153,28 @@ https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-1/
 https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 ```
 
+### 3 _Anreicherung und Publikation von Annotationsdatensets auf Repositorien_
+
+```{glue:figure} qr-bild-fs-3
+:figwidth: 400px
+:name: "qr-bild-fs-3"
+
+https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/
+```
+
 ## Tabelle
+
 ### 1 _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht_
+
 ```{glue:figure} qr-tabelle-fs-1
 :figwidth: 400px
 :name: "qr-tabelle-fs-1"
 
 https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
 ```
+
 ### 2 _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen/Deutschen Metadatenportal_
+
 ```{glue:figure} qr-tabelle-fs-2
 :figwidth: 400px
 :name: "qr-tabelle-fs-2"
@@ -140,9 +182,19 @@ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
 https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
 ```
 
+### 3 _Visualisierung in der Verwaltung: Ein Dashboard für Baum- und Bewässerungsdaten_
+
+```{glue:figure} qr-tabelle-fs-3
+:figwidth: 400px
+:name: "qr-tabelle-fs-3"
+
+https://quadriga-dk.github.io/Tabelle-Fallstudie-3/
+```
+
 ## Weitere Ressourcen
 
 ### QUADRIGA Datenkompetenzframework
+
 ```{glue:figure} qr-dkf
 :figwidth: 400px
 :name: "qr-dkf"
@@ -151,21 +203,25 @@ https://doi.org/10.5281/zenodo.14747822
 ```
 
 ### QUADRIGA Navigator (Beta)
+
 ```{glue:figure} qr-navigator
 :figwidth: 400px
 :name: "qr-navigator"
 
-https://quadriga.fokus.fraunhofer.de/datasets?locale=de
+https://quadriga.fokus.fraunhofer.de/datasets
 ```
 
 ### QUADRIGA Community auf zenodo.org
+
 ```{glue:figure} qr-zenodo-community
 :figwidth: 400px
 :name: "qr-zenodo-community"
 
 https://zenodo.org/communities/quadriga/
 ```
+
 ### Workshop
+
 ```{glue:figure} qr-workshop
 :figwidth: 400px
 :name: "qr-workshop"
@@ -174,6 +230,7 @@ https://quadriga-dk.github.io/OER-Workshop/
 ```
 
 ### QR-Codes (diese Seite)
+
 ```{glue:figure} qr-qr-codes
 :figwidth: 400px
 :name: "qr-qr-codes"
@@ -183,17 +240,18 @@ https://quadriga-dk.github.io/qr/
 
 # Informationen zum Projekt QUADRIGA
 
-Das Datenkompetenzzentrum QUADRIGA vereint die vier Disziplinen Digital Humanities, Verwaltungswissenschaft, Informatik und Informationswissenschaft entlang der Datentypen Text, Tabelle und Bewegtes Bild am Wissenschaftsstandort Berlin-Brandenburg. 
-Die Metropolregion ist ein Hotspot für Openness in den Anwendungsdomänen Digital Humanities und Verwaltungswissenschaft. 
-Die Basiswissenschaften Informatik und Informationswissenschaft mit umfangreicher Expertise für Data Science und Data Stewardship unterstützen die beiden Anwendungsdomänen hinsichtlich Forschung zum Datenfluss, (inter)nationalen Standards und Prinzipien (z.B. FAIR, CARE). 
-QUADRIGA führt Forschungs- und Lernorte durch vielfältige Vernetzungsorte zusammen. Zur Entwicklung digitaler Methoden werden mittels Fallstudien in den Forschungsorten spezifische Fragestellungen und Datentypen behandelt. 
-Die Datensätze, Standards und Methoden werden in den Lernorten mit didaktischen Mitteln in fallstudienbasierte, zielgruppenspezifische und kompetenzorientierte QUADRIGA Educational Resources transformiert. 
-Assessment-Werkzeuge verbinden Forschungs- mit Lernorten auf Basis eines optimierten QUADRIGA Datenkompetenzframeworks und ermöglichen Forschenden, ihre Datenkompetenzen entlang des Datenfluss zuzuordnen. 
+Das Datenkompetenzzentrum QUADRIGA vereint die vier Disziplinen Digital Humanities, Verwaltungswissenschaft, Informatik und Informationswissenschaft entlang der Datentypen Text, Tabelle und Bewegtes Bild am Wissenschaftsstandort Berlin-Brandenburg.
+Die Metropolregion ist ein Hotspot für Openness in den Anwendungsdomänen Digital Humanities und Verwaltungswissenschaft.
+Die Basiswissenschaften Informatik und Informationswissenschaft mit umfangreicher Expertise für Data Science und Data Stewardship unterstützen die beiden Anwendungsdomänen hinsichtlich Forschung zum Datenfluss, (inter)nationalen Standards und Prinzipien (z.B. FAIR, CARE).
+QUADRIGA führt Forschungs- und Lernorte durch vielfältige Vernetzungsorte zusammen. Zur Entwicklung digitaler Methoden werden mittels Fallstudien in den Forschungsorten spezifische Fragestellungen und Datentypen behandelt.
+Die Datensätze, Standards und Methoden werden in den Lernorten mit didaktischen Mitteln in fallstudienbasierte, zielgruppenspezifische und kompetenzorientierte QUADRIGA Educational Resources transformiert.
+Assessment-Werkzeuge verbinden Forschungs- mit Lernorten auf Basis eines optimierten QUADRIGA Datenkompetenzframeworks und ermöglichen Forschenden, ihre Datenkompetenzen entlang des Datenfluss zuzuordnen.
 Mit dem Suchwerkzeug QUADRIGA Navigator werden basierend auf dem Datenkompetenzframework alle QUADRIGA Bildungsangebote zielgruppengerecht und interessengeleitet auf der Datenkompetenzplattform QUADRIGA Space angeboten.
 
 Weitere Informationen sowie Publikationen finden Sie auf der <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">Webseite</a> und der <a href="https://zenodo.org/communities/quadriga/records?q=&l=list&p=1&s=10&sort=newest" class="external-link" target="_blank">Zenodo-Community-Seite</a> des Projekts.
 
 Das Datenkompetenzzentrum QUADRIGA wird vom <a href="https://www.bmftr.bund.de/DE/Forschung/Wissenschaftssystem/Forschungsdaten/DatenkompetenzenInDerWissenschaft/datenkompetenzeninderwissenschaft.html" target="_blank" class="external-link">Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)</a> unter dem Kennzeichen 16DKZ2034 gefördert. Zu den Verbundpartern zählen:
+
 - Universität Potsdam (Verbundkoordination) <span style="font-size: small">(Förderkennzeichen: 16DKZ2034A)</span>
 - Filmuniversität Babelsberg <span style="font-size: small">(Förderkennzeichen: 16DKZ2034B)</span>
 - Fachhochschule Potsdam <span style="font-size: small">(Förderkennzeichen: 16DKZ2034C)</span>
