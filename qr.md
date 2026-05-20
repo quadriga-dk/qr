@@ -20,6 +20,9 @@ qr_dict = {
   "website": {
     "url": "https://www.quadriga-dk.de"
   },
+  "fallstudien": {
+    "url": "https://quadriga-dk.github.io/fallstudien"
+  },
   "text-fs-1": {
     "url": "https://quadriga-dk.github.io/Text-Fallstudie-1"
   },
@@ -102,6 +105,15 @@ Wollen Sie von uns zu Neuigkeiten kontaktiert werden für oder zu Feedback und E
 :name: "qr-kontakt"
 
 https://gesellschaftfuerinformatik.limesurvey.net/254548?lang=de
+```
+
+## Übersicht aller Fallstudien
+
+```{glue:figure} qr-fallstudien
+:figwidth: 400px
+:name: "qr-fallstudien"
+
+https://quadriga-dk.github.io/fallstudien
 ```
 
 ## Text
