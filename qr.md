@@ -66,7 +66,7 @@ qr_dict = {
     "url": "https://quadriga-dk.github.io/OER-Workshop/"
   },
   "kontakt": {
-    "url": "https://gesellschaftfuerinformatik.limesurvey.net/254548?lang=de"
+    "url": "https://umfragenup.uni-potsdam.de/quadriga_mailings/"
   }
 }
 for key, value in qr_dict.items():
@@ -104,7 +104,7 @@ Wollen Sie von uns zu Neuigkeiten kontaktiert werden für oder zu Feedback und E
 :figwidth: 400px
 :name: "qr-kontakt"
 
-https://gesellschaftfuerinformatik.limesurvey.net/254548?lang=de
+https://umfragenup.uni-potsdam.de/quadriga_mailings/
 ```
 
 ## Übersicht aller Fallstudien
